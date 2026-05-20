@@ -265,8 +265,60 @@ main {
 .site-footer {
   background: var(--white);
   border-top: 1px solid var(--border);
-  padding: 22px 24px;
+  padding: 36px 24px 24px;
   text-align: center;
+}
+
+.footer-inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.footer-name {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--dark);
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+}
+
+.footer-cnpj {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-bottom: 2px;
+}
+
+.footer-razao {
+  font-size: 0.82rem;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.footer-section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray);
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+.footer-address, .footer-contact {
+  font-size: 0.85rem;
+  color: var(--dark);
+  line-height: 1.7;
+}
+
+.footer-contact a {
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 24px 0 16px;
 }
 
 .footer-links {
@@ -279,11 +331,12 @@ main {
 }
 
 .footer-links a {
-  font-size: 0.82rem;
-  color: var(--gray);
+  font-size: 0.85rem;
+  color: var(--blue);
+  font-weight: 500;
 }
 
-.footer-links a:hover { color: var(--blue); }
+.footer-links a:hover { text-decoration: underline; }
 
 .footer-sep {
   color: var(--gray-light);
@@ -293,6 +346,7 @@ main {
 .footer-copy {
   font-size: 0.78rem;
   color: var(--gray-light);
+  margin-top: 8px;
 }
 
 /* ============================================================
